@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/LCSelectCountryCode.svg?style=flat)](https://cocoapods.org/pods/LCSelectCountryCode)
 
 ## Example
+![Image](https://dwz.cn/WpnVIQnr)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
