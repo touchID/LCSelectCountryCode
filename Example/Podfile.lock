@@ -1,0 +1,16 @@
+PODS:
+  - LCSelectCountryCode (0.1.0)
+
+DEPENDENCIES:
+  - LCSelectCountryCode (from `../`)
+
+EXTERNAL SOURCES:
+  LCSelectCountryCode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LCSelectCountryCode: 51a99a28d6f0346ee0ccdedf198530040fd4ca10
+
+PODFILE CHECKSUM: 6b01a118a3570f6dda989b147e1c29cf09e9f063
+
+COCOAPODS: 1.9.0

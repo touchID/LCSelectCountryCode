@@ -17,12 +17,13 @@ LCSelectCountryCode is available through [CocoaPods](https://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LCSelectCountryCode'
+pod 'LCSelectCountryCode' ,:git => 'https://gitee.com/touchid/LCSelectCountryCode' 
 ```
 
 ## Author
 
-Swift, ios.7@qq.com
+Swift
+
 
 ## License
 

@@ -7,6 +7,7 @@
 //
 
 #import "LCViewController.h"
+#import "LCWordCodeViewController.h"
 
 @interface LCViewController ()
 
@@ -14,16 +15,19 @@
 
 @implementation LCViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    LCWordCodeViewController *vc = [[LCWordCodeViewController alloc] init];
+    //__weak typeof(self) self__ = self;
+    vc.successBlock = ^(NSString *wordCode) {
+        NSLog(@"PhoneNumber = %@",wordCode);
+    };
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nav animated:true completion:nil];
+}
 @end

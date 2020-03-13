@@ -1,0 +1,22 @@
+{
+  "name": "LCSelectCountryCode",
+  "version": "0.1.0",
+  "summary": "A short description of LCSelectCountryCode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Swift/LCSelectCountryCode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Swift": "ios.7@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Swift/LCSelectCountryCode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LCSelectCountryCode/Classes/**/*"
+}

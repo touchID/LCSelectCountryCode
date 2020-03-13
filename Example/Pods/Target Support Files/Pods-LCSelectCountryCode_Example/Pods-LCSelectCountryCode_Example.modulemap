@@ -1,0 +1,6 @@
+framework module Pods_LCSelectCountryCode_Example {
+  umbrella header "Pods-LCSelectCountryCode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

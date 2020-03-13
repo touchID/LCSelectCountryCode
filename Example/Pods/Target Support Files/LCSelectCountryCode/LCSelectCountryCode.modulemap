@@ -1,0 +1,6 @@
+framework module LCSelectCountryCode {
+  umbrella header "LCSelectCountryCode-umbrella.h"
+
+  export *
+  module * { export * }
+}
