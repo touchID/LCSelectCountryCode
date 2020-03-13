@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06B2BAE6564B59ABA08875035CFA1103 /* BAKit_LocalizedIndexedCollation.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EC57F07036175CD905355ECDB4BF4A /* BAKit_LocalizedIndexedCollation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E41E08012C39FACF5F28ECFF70F3772 /* Pods-LCSelectCountryCode_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF7B686098F4394740960854D75C82E /* Pods-LCSelectCountryCode_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21143DC51903894DFF1A2F24DA866F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		29E5A4F012EF629DB68B29AF9288E95C /* LCWordCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F16716A82FCC9D60E8C7A55AE1A4315F /* LCWordCodeModel.m */; };
 		4886453620596B3C776FEB7D8AC0211C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		4FF1C211F575707DA236996E4C71EED1 /* LCSelectCountryCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DBB3D446A772DE601D17DF9DCD82E6A /* LCSelectCountryCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53FD9848C79F1395F3B89E13BA5A8DEC /* LCWordCodeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9A44E5412304151F7FB6984A321026 /* LCWordCodeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		659B3917F5C5E75F116E6B97E7A446A7 /* Pods-LCSelectCountryCode_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8834D5E35D654B9010B14CF0EF1E186 /* Pods-LCSelectCountryCode_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6791F144B79A775C708A039BBB40987C /* Pods-LCSelectCountryCode_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A06B2CA2A349FB9DDFF3146275EB356 /* Pods-LCSelectCountryCode_Tests-dummy.m */; };
+		6B31F805B45E352120EC3A35C4D881AF /* LCSelectCountryCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E73B04C051F73A15C093451ABEE84BD1 /* LCSelectCountryCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		703B0C32796BD603A4B1492D78419089 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 400B2AA2F313A69DD192295322A3875D /* ReplaceMe.m */; };
+		8382420206AEDBCD651EA4F8144AC699 /* LCSelectCountryCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9052C0CDABB25C9D5EA8F9D457C77B7 /* LCSelectCountryCode-dummy.m */; };
 		8C3041B88AA87F5DFDA60CC36546DAEF /* Pods-LCSelectCountryCode_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0816436A309033CB6EE0129E0DC54A /* Pods-LCSelectCountryCode_Example-dummy.m */; };
-		BE87BE2C3F67B26814F5A5B0134F8A77 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D0A7C5521D4A2B04A84425DB25BC19 /* ReplaceMe.m */; };
-		E9DF4E50CB79812D1F94D4D35134AF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F1E8A02C1B3D02E8FAF886179A0830D2 /* LCSelectCountryCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8352CE36CF4F391DF9F7AE86E7B12FD0 /* LCSelectCountryCode-dummy.m */; };
+		A2838BAF631DAA2F92EE4EFD63DEC04B /* BAKit_LocalizedIndexedCollation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C680E1F02FE2EE0EFEFAE6B4CC6CA26 /* BAKit_LocalizedIndexedCollation.m */; };
+		E743095C6B73FFA403F183B43B7417C4 /* LCWordCodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9B5DAADFF9C2952ADF4A299B5DD3E4 /* LCWordCodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A8B413F08B3E72C1C92F03D0AB0F9F /* LCWordCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4994D7E771244A6711414A7F2A224 /* LCWordCodeViewController.m */; };
 		FB3D825FFCD0FD36E123EE3097D6E0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,39 +43,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AF5E346DFB9E6D2279FAB94F04073A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0DBB3D446A772DE601D17DF9DCD82E6A /* LCSelectCountryCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCSelectCountryCode-umbrella.h"; sourceTree = "<group>"; };
 		1470E39A868D6B6D2B0D411C12B73F00 /* Pods-LCSelectCountryCode_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCSelectCountryCode_Example-Info.plist"; sourceTree = "<group>"; };
 		1AA3477AB7D25B88C2F15A099519E5E4 /* Pods-LCSelectCountryCode_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCSelectCountryCode_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D13242F409AF03AC175C1F2AB04AF99 /* Pods-LCSelectCountryCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCSelectCountryCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		292FC4CB8DA9AF981BC3D8B7CC313084 /* Pods-LCSelectCountryCode_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCSelectCountryCode_Tests.modulemap"; sourceTree = "<group>"; };
+		2C59122CBE1C54DF6DBF22A26752F1CE /* LCSelectCountryCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCSelectCountryCode-Info.plist"; sourceTree = "<group>"; };
+		2FE5933DF1E73EAA34B53269A990625E /* LCSelectCountryCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCSelectCountryCode.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3A06B2CA2A349FB9DDFF3146275EB356 /* Pods-LCSelectCountryCode_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCSelectCountryCode_Tests-dummy.m"; sourceTree = "<group>"; };
+		400B2AA2F313A69DD192295322A3875D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LCSelectCountryCode/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		409D1AD08B794132BBD26C3E62833652 /* Pods-LCSelectCountryCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCSelectCountryCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		50D6B1B975AF7672B1686EC30123367B /* Pods-LCSelectCountryCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LCSelectCountryCode_Example.modulemap"; sourceTree = "<group>"; };
+		50EC57F07036175CD905355ECDB4BF4A /* BAKit_LocalizedIndexedCollation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BAKit_LocalizedIndexedCollation.h; sourceTree = "<group>"; };
 		51D6CF001491A70BA5943B67661FD17C /* Pods_LCSelectCountryCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCSelectCountryCode_Tests.framework; path = "Pods-LCSelectCountryCode_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5390A9AEE859AC483841FAE326911D2E /* LCSelectCountryCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCSelectCountryCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A0816436A309033CB6EE0129E0DC54A /* Pods-LCSelectCountryCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LCSelectCountryCode_Example-dummy.m"; sourceTree = "<group>"; };
+		5D11BD02AF2A73A2ACA20B3001A71A65 /* LCSelectCountryCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LCSelectCountryCode.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D543FEC279448C1A01CC514DC55157D /* Pods-LCSelectCountryCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LCSelectCountryCode_Example-frameworks.sh"; sourceTree = "<group>"; };
-		63B45B0DFE390492A771B39B26FA759E /* LCSelectCountryCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCSelectCountryCode-prefix.pch"; sourceTree = "<group>"; };
 		673A92304371EFE1502CF7E02B19EB0D /* Pods_LCSelectCountryCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LCSelectCountryCode_Example.framework; path = "Pods-LCSelectCountryCode_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		674A5494263A59A6CB8AD76E8DC02264 /* LCSelectCountryCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCSelectCountryCode.debug.xcconfig; sourceTree = "<group>"; };
+		6C680E1F02FE2EE0EFEFAE6B4CC6CA26 /* BAKit_LocalizedIndexedCollation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BAKit_LocalizedIndexedCollation.m; sourceTree = "<group>"; };
+		6EC4994D7E771244A6711414A7F2A224 /* LCWordCodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCWordCodeViewController.m; path = LCSelectCountryCode/Classes/LCWordCodeViewController.m; sourceTree = "<group>"; };
 		6FF6A0BEE69B0F5115327AC9E001A438 /* Pods-LCSelectCountryCode_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LCSelectCountryCode_Tests-Info.plist"; sourceTree = "<group>"; };
-		729D9259247CFDA29A437C7CE4D94943 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		75A0ED5194901AD4ECB1FAB5F8C8F3EC /* Pods-LCSelectCountryCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCSelectCountryCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		76329F64651DDE4624926D7E32095E83 /* Pods-LCSelectCountryCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCSelectCountryCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7889C0774C45F35F57ABEC67CC88E619 /* LCSelectCountryCode-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LCSelectCountryCode-Info.plist"; sourceTree = "<group>"; };
 		7CF7B686098F4394740960854D75C82E /* Pods-LCSelectCountryCode_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCSelectCountryCode_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8352CE36CF4F391DF9F7AE86E7B12FD0 /* LCSelectCountryCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCSelectCountryCode-dummy.m"; sourceTree = "<group>"; };
+		9A864DADF0871BA9DC8F52AD8EC19F8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8834D5E35D654B9010B14CF0EF1E186 /* Pods-LCSelectCountryCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LCSelectCountryCode_Example-umbrella.h"; sourceTree = "<group>"; };
 		B15C293D33C5782FE3D100A289B7FE66 /* Pods-LCSelectCountryCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCSelectCountryCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B2A1690CF609D53B72DDB23A06106F8C /* LCSelectCountryCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCSelectCountryCode.release.xcconfig; sourceTree = "<group>"; };
 		C291749EF5C4EBAF0CBB5D6293962F5B /* Pods-LCSelectCountryCode_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LCSelectCountryCode_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF9A44E5412304151F7FB6984A321026 /* LCWordCodeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCWordCodeModel.h; path = LCSelectCountryCode/Classes/LCWordCodeModel.h; sourceTree = "<group>"; };
+		D24079ABB682CDF43F50AA012FA0FC96 /* LCSelectCountryCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCSelectCountryCode-prefix.pch"; sourceTree = "<group>"; };
+		D48F262DDC1623AE9EB2DBD5E756B981 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D9929A687BFFA175FAA43BBBC1168A44 /* LCSelectCountryCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LCSelectCountryCode.release.xcconfig; sourceTree = "<group>"; };
 		DC33AE81B1FBC3F021DD3F561C3595C8 /* Pods-LCSelectCountryCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LCSelectCountryCode_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E75B4CE93696118B427242689999995D /* LCSelectCountryCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCSelectCountryCode.modulemap; sourceTree = "<group>"; };
-		E9D0A7C5521D4A2B04A84425DB25BC19 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LCSelectCountryCode/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DC9B5DAADFF9C2952ADF4A299B5DD3E4 /* LCWordCodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LCWordCodeViewController.h; path = LCSelectCountryCode/Classes/LCWordCodeViewController.h; sourceTree = "<group>"; };
+		E73B04C051F73A15C093451ABEE84BD1 /* LCSelectCountryCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LCSelectCountryCode-umbrella.h"; sourceTree = "<group>"; };
+		E9052C0CDABB25C9D5EA8F9D457C77B7 /* LCSelectCountryCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LCSelectCountryCode-dummy.m"; sourceTree = "<group>"; };
 		EFBCCEB2A949332DEF9E35366E68DFA2 /* LCSelectCountryCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LCSelectCountryCode.framework; path = LCSelectCountryCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16716A82FCC9D60E8C7A55AE1A4315F /* LCWordCodeModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LCWordCodeModel.m; path = LCSelectCountryCode/Classes/LCWordCodeModel.m; sourceTree = "<group>"; };
+		FEEEE92BE5A027C9D15A45234D200F1D /* LCSelectCountryCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LCSelectCountryCode.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31C8F35460637FA6EB8D3F82908512BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21143DC51903894DFF1A2F24DA866F11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4C8501A76EA4F089A6D51097D07EB538 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,21 +109,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAFC6C20DFF1E1C72F9D9723F5E8E088 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9DF4E50CB79812D1F94D4D35134AF0B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		260238BDA60FC21E5B6070134A63E3AD /* Development Pods */ = {
+		0172FD489619B3C71ABA835091E4DD20 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D9CF8E001789091C5E2054061E81B32A /* LCSelectCountryCode */,
+				5D11BD02AF2A73A2ACA20B3001A71A65 /* LCSelectCountryCode.podspec */,
+				9A864DADF0871BA9DC8F52AD8EC19F8F /* LICENSE */,
+				D48F262DDC1623AE9EB2DBD5E756B981 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		25E1DFFB11188274302D8CBBD69AF566 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEEEE92BE5A027C9D15A45234D200F1D /* LCSelectCountryCode.modulemap */,
+				E9052C0CDABB25C9D5EA8F9D457C77B7 /* LCSelectCountryCode-dummy.m */,
+				2C59122CBE1C54DF6DBF22A26752F1CE /* LCSelectCountryCode-Info.plist */,
+				D24079ABB682CDF43F50AA012FA0FC96 /* LCSelectCountryCode-prefix.pch */,
+				E73B04C051F73A15C093451ABEE84BD1 /* LCSelectCountryCode-umbrella.h */,
+				2FE5933DF1E73EAA34B53269A990625E /* LCSelectCountryCode.debug.xcconfig */,
+				D9929A687BFFA175FAA43BBBC1168A44 /* LCSelectCountryCode.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LCSelectCountryCode";
+			sourceTree = "<group>";
+		};
+		522F06024B15B9579B633D3A61D06520 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9881BA2290BC0A038B2E1E7AF17A1500 /* LCSelectCountryCode */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -143,14 +180,20 @@
 			path = "Target Support Files/Pods-LCSelectCountryCode_Tests";
 			sourceTree = "<group>";
 		};
-		7632BD78AAB3DA7D22C755ECF0C9BE83 /* Pod */ = {
+		9881BA2290BC0A038B2E1E7AF17A1500 /* LCSelectCountryCode */ = {
 			isa = PBXGroup;
 			children = (
-				5390A9AEE859AC483841FAE326911D2E /* LCSelectCountryCode.podspec */,
-				729D9259247CFDA29A437C7CE4D94943 /* LICENSE */,
-				0AF5E346DFB9E6D2279FAB94F04073A6 /* README.md */,
+				CF9A44E5412304151F7FB6984A321026 /* LCWordCodeModel.h */,
+				F16716A82FCC9D60E8C7A55AE1A4315F /* LCWordCodeModel.m */,
+				DC9B5DAADFF9C2952ADF4A299B5DD3E4 /* LCWordCodeViewController.h */,
+				6EC4994D7E771244A6711414A7F2A224 /* LCWordCodeViewController.m */,
+				400B2AA2F313A69DD192295322A3875D /* ReplaceMe.m */,
+				ECF5AF651AC93CC9544D145A9515CCEF /* BAKit_LocalizedIndexedCollation */,
+				0172FD489619B3C71ABA835091E4DD20 /* Pod */,
+				25E1DFFB11188274302D8CBBD69AF566 /* Support Files */,
 			);
-			name = Pod;
+			name = LCSelectCountryCode;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A9FC5884BE68EE368E05769216C485C5 /* Pods-LCSelectCountryCode_Example */ = {
@@ -170,21 +213,6 @@
 			path = "Target Support Files/Pods-LCSelectCountryCode_Example";
 			sourceTree = "<group>";
 		};
-		BEA01F475B826EF4F0138C1BD78E9358 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E75B4CE93696118B427242689999995D /* LCSelectCountryCode.modulemap */,
-				8352CE36CF4F391DF9F7AE86E7B12FD0 /* LCSelectCountryCode-dummy.m */,
-				7889C0774C45F35F57ABEC67CC88E619 /* LCSelectCountryCode-Info.plist */,
-				63B45B0DFE390492A771B39B26FA759E /* LCSelectCountryCode-prefix.pch */,
-				0DBB3D446A772DE601D17DF9DCD82E6A /* LCSelectCountryCode-umbrella.h */,
-				674A5494263A59A6CB8AD76E8DC02264 /* LCSelectCountryCode.debug.xcconfig */,
-				B2A1690CF609D53B72DDB23A06106F8C /* LCSelectCountryCode.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LCSelectCountryCode";
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				260238BDA60FC21E5B6070134A63E3AD /* Development Pods */,
+				522F06024B15B9579B633D3A61D06520 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				61C4B4B93E46C9E35524FB19D3EEDB28 /* Products */,
 				57BD95C490C6586AE413C9D82F36ED40 /* Targets Support Files */,
@@ -212,15 +240,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9CF8E001789091C5E2054061E81B32A /* LCSelectCountryCode */ = {
+		ECF5AF651AC93CC9544D145A9515CCEF /* BAKit_LocalizedIndexedCollation */ = {
 			isa = PBXGroup;
 			children = (
-				E9D0A7C5521D4A2B04A84425DB25BC19 /* ReplaceMe.m */,
-				7632BD78AAB3DA7D22C755ECF0C9BE83 /* Pod */,
-				BEA01F475B826EF4F0138C1BD78E9358 /* Support Files */,
+				50EC57F07036175CD905355ECDB4BF4A /* BAKit_LocalizedIndexedCollation.h */,
+				6C680E1F02FE2EE0EFEFAE6B4CC6CA26 /* BAKit_LocalizedIndexedCollation.m */,
 			);
-			name = LCSelectCountryCode;
-			path = ../..;
+			name = BAKit_LocalizedIndexedCollation;
+			path = LCSelectCountryCode/Classes/BAKit_LocalizedIndexedCollation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,19 +261,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4242BCCDD929039215342BA0327758C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4FF1C211F575707DA236996E4C71EED1 /* LCSelectCountryCode-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DBAB7C0E721E649CCC404FDB939AEE37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				659B3917F5C5E75F116E6B97E7A446A7 /* Pods-LCSelectCountryCode_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95CE81D38E53ADD81585F36A15CF06E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B2BAE6564B59ABA08875035CFA1103 /* BAKit_LocalizedIndexedCollation.h in Headers */,
+				6B31F805B45E352120EC3A35C4D881AF /* LCSelectCountryCode-umbrella.h in Headers */,
+				53FD9848C79F1395F3B89E13BA5A8DEC /* LCWordCodeModel.h in Headers */,
+				E743095C6B73FFA403F183B43B7417C4 /* LCWordCodeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +304,12 @@
 		};
 		8ED3C70AC7787842EE6F760ADC8AB0AD /* LCSelectCountryCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEFFAA1C0E2CDE9F3D75DE6175BA2F42 /* Build configuration list for PBXNativeTarget "LCSelectCountryCode" */;
+			buildConfigurationList = 16A7F1D074796D9C2EA5E0E0CAC0C764 /* Build configuration list for PBXNativeTarget "LCSelectCountryCode" */;
 			buildPhases = (
-				B4242BCCDD929039215342BA0327758C /* Headers */,
-				2BD635609B80364612338402FB23850E /* Sources */,
-				CAFC6C20DFF1E1C72F9D9723F5E8E088 /* Frameworks */,
-				3A5946C4F35DE2DF06767B7627FDC24C /* Resources */,
+				F95CE81D38E53ADD81585F36A15CF06E /* Headers */,
+				220F76A007BC4EB86B0603893A675C49 /* Sources */,
+				31C8F35460637FA6EB8D3F82908512BF /* Frameworks */,
+				01B19F0C82F725D6E513A9F94116EF65 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +369,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1669951705342FBA52314CF9DA3537EB /* Resources */ = {
+		01B19F0C82F725D6E513A9F94116EF65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A5946C4F35DE2DF06767B7627FDC24C /* Resources */ = {
+		1669951705342FBA52314CF9DA3537EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,12 +393,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BD635609B80364612338402FB23850E /* Sources */ = {
+		220F76A007BC4EB86B0603893A675C49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E8A02C1B3D02E8FAF886179A0830D2 /* LCSelectCountryCode-dummy.m in Sources */,
-				BE87BE2C3F67B26814F5A5B0134F8A77 /* ReplaceMe.m in Sources */,
+				A2838BAF631DAA2F92EE4EFD63DEC04B /* BAKit_LocalizedIndexedCollation.m in Sources */,
+				8382420206AEDBCD651EA4F8144AC699 /* LCSelectCountryCode-dummy.m in Sources */,
+				29E5A4F012EF629DB68B29AF9288E95C /* LCWordCodeModel.m in Sources */,
+				E7A8B413F08B3E72C1C92F03D0AB0F9F /* LCWordCodeViewController.m in Sources */,
+				703B0C32796BD603A4B1492D78419089 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,9 +473,9 @@
 			};
 			name = Release;
 		};
-		44AE51AB2334D10DB9D76F222FA78781 /* Debug */ = {
+		26095E73FE99F20BD0F35B8A8C9ACC74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 674A5494263A59A6CB8AD76E8DC02264 /* LCSelectCountryCode.debug.xcconfig */;
+			baseConfigurationReference = 2FE5933DF1E73EAA34B53269A990625E /* LCSelectCountryCode.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -564,38 +597,6 @@
 			};
 			name = Debug;
 		};
-		661C35FC0BEB6AD3E92A51E2F7B14F19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2A1690CF609D53B72DDB23A06106F8C /* LCSelectCountryCode.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LCSelectCountryCode/LCSelectCountryCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LCSelectCountryCode/LCSelectCountryCode-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LCSelectCountryCode/LCSelectCountryCode.modulemap";
-				PRODUCT_MODULE_NAME = LCSelectCountryCode;
-				PRODUCT_NAME = LCSelectCountryCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		73E42F0C5548A8264085B590EF7CC3B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC33AE81B1FBC3F021DD3F561C3595C8 /* Pods-LCSelectCountryCode_Example.release.xcconfig */;
@@ -694,6 +695,38 @@
 			};
 			name = Debug;
 		};
+		B37D6047D4A7C55359C1D4828168676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9929A687BFFA175FAA43BBBC1168A44 /* LCSelectCountryCode.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LCSelectCountryCode/LCSelectCountryCode-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LCSelectCountryCode/LCSelectCountryCode-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LCSelectCountryCode/LCSelectCountryCode.modulemap";
+				PRODUCT_MODULE_NAME = LCSelectCountryCode;
+				PRODUCT_NAME = LCSelectCountryCode;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E314EE99083B0BA160101038B35C1699 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75A0ED5194901AD4ECB1FAB5F8C8F3EC /* Pods-LCSelectCountryCode_Example.debug.xcconfig */;
@@ -730,6 +763,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		16A7F1D074796D9C2EA5E0E0CAC0C764 /* Build configuration list for PBXNativeTarget "LCSelectCountryCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26095E73FE99F20BD0F35B8A8C9ACC74 /* Debug */,
+				B37D6047D4A7C55359C1D4828168676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -744,15 +786,6 @@
 			buildConfigurations = (
 				E314EE99083B0BA160101038B35C1699 /* Debug */,
 				73E42F0C5548A8264085B590EF7CC3B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEFFAA1C0E2CDE9F3D75DE6175BA2F42 /* Build configuration list for PBXNativeTarget "LCSelectCountryCode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				44AE51AB2334D10DB9D76F222FA78781 /* Debug */,
-				661C35FC0BEB6AD3E92A51E2F7B14F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

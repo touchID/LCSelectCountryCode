@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "BAKit_LocalizedIndexedCollation.h"
+#import "LCWordCodeModel.h"
+#import "LCWordCodeViewController.h"
 
 FOUNDATION_EXPORT double LCSelectCountryCodeVersionNumber;
 FOUNDATION_EXPORT const unsigned char LCSelectCountryCodeVersionString[];
