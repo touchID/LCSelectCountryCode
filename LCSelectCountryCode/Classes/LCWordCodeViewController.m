@@ -219,7 +219,7 @@ static NSString * const cellID = @"LCWordCodeViewCell";
 //    NSLog(@"PhoneNumber = %@",model.user_PhoneNumber);
     //
     if (self.successBlock != nil) {
-        self.successBlock(model.user_PhoneNumber);
+        self.successBlock(model.user_Name,model.user_PhoneNumber);
     }
 
     if (self.searchController.active) {

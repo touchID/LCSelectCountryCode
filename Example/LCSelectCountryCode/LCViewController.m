@@ -38,9 +38,9 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     LCWordCodeViewController *vc = [[LCWordCodeViewController alloc] init];
     __weak typeof(self) self__ = self;
-    vc.successBlock = ^(NSString *wordCode) {
+    vc.successBlock = ^(NSString *wordName,NSString *wordCode) {
         NSLog(@"PhoneNumber = %@", wordCode);
-        self__.title_label.text = [NSString stringWithFormat:@"%@%@",@"国际手机代号:",wordCode];
+        self__.title_label.text = [NSString stringWithFormat:@"%@ %@", wordName, wordCode];
     };
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:nav animated:true completion:nil];

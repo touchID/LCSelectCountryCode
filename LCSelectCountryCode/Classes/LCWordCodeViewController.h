@@ -10,7 +10,7 @@
 
 @interface LCWordCodeViewController : UIViewController
 
-@property (nonatomic, copy) void(^successBlock)(NSString *);
+@property (nonatomic, copy) void(^successBlock)(NSString *wordName,NSString *wordCode);
 
 @end
 
